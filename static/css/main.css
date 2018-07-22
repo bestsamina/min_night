@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    font-size:1.5em;
+    font-size:1.7em;
     padding-top: 55px;
     display: flex;
     text-align: center;
@@ -53,7 +53,9 @@ a:link, a:visited {
 
 #bigbody main a {
     color: var(--accent) !important;
+    /*font-size: 1.7em;*/
 }
+
 
 #bigfooter a:link, a:visited {
     color: #cccccc;
@@ -84,11 +86,13 @@ a:link, a:visited {
 .item-cat {
     background-color: #757575;
     margin:1px;
+    font-size: 1em;
 }
 
 .item-tag {
     background-color: var(--accent);
     margin:1px;
+    font-size: 1em;
 }
 
 .terms {
@@ -197,4 +201,8 @@ img {
 .toggle-off:hover {
     background-color: var(--accent) !important;
     color: #f8f8f8 !important;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
 }
